@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    text-align: center;
+    background-color: black;
+    color: aqua;
+    width: 100vw;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    /* margin-top: 10px; */
+    padding-top: 20px;
+}
+
+span{
+    margin: 30px;
+}
+
+.list-container{
+    
+    padding: 30px;
+   
+}
+.home-section-list{
+    list-style: none;
+}
+.hidden-section{
+    overflow: hidden;
+    height: 0px;
+    opacity: 0;
+}
+.text-home:hover ~.hidden-home-section{
+    height:20rem;
+    opacity: 1;
+
+}
